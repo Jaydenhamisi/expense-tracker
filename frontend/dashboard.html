@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard | Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Your Expenses</h1>
+        <button onclick="logout()" class="logout">Logout</button>
+
+        <div>
+            <input id="expense-name" placeholder="Name">
+            <input id="expense-amount" type="number" placeholder="Amount">
+            <button onclick="addExpense()">Add</button>
+        </div>
+
+
+        <ul id="expense-list" class="expense-list"></ul>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>

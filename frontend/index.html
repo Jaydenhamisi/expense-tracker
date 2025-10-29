@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login | Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+    <h1>Login</h1>
+
+    
+    <input id="username" type="text" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+
+    <p>Don't have an account? <a href="#" onclick="toggleRegister()">Register</a></p>
+
+    <div id="regiser-box" style="display:none;">
+        <input id="new-username" type="text" placeholder="New Username">
+        <input id="new-password" type="password" placeholder="New Password">
+        <button onclick="register()">Create Account</button>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
