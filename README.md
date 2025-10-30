@@ -3,7 +3,7 @@
 A full-stack expense tracking web app with user authentication and private user data.
 
 ###  Live Demo
-**Frontend:** https://expense-tracker-frontend.vercel.app  
+**Frontend:** https://expense-tracker-git-main-jayden-hamisis-projects.vercel.app/  
 **Backend API:** https://expense-tracker-y85w.onrender.com
 
 ---
