@@ -49,7 +49,7 @@ A full-stack expense tracking web app with user authentication and private user 
 
 ---
 
-###  Future Improvements (optional)
+###  Future Improvements 
 - Replace SQLite with PostgreSQL
 - Add monthly totals / charts
 - Better styling / animations
